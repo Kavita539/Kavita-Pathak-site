@@ -89,9 +89,10 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-weight: 2rem;
-    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
     font-family: 'Dancing Script', cursive;
+    color: #4B5563;
 }
 
 .navigation .nav-pills {
@@ -189,4 +190,20 @@ figcaption{
 /* projects */
 .showcase-list {
     padding: 2rem;
+}
+
+@media screen and (max-width: 360px) {
+    .hero-img{
+        width: 260px;
+    }
+
+    .list-item-inline{
+        padding: 0rem;
+    }
+    .logo{
+        width: 40px;
+    }
+    figcaption{
+        font-size: 0.6rem;
+    }
 }
