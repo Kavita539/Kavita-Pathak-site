@@ -31,13 +31,14 @@ hr {
 /* container */
 
 .container {
-
+    display: block;
     padding: 0rem 1rem;
 }
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* links */
@@ -46,8 +47,6 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin-top: 1rem; */
-    /* margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -190,10 +189,6 @@ figcaption{
     color : black;
 }
 
-/* projects */
-/* .showcase-list { */
-    /* padding: 2rem; */
-/* } */
 
 @media screen and (max-width: 360px) {
     .hero-img{
