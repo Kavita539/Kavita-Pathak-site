@@ -164,7 +164,7 @@ figcaption{
 
 .footer {
     background-image: linear-gradient( to left, var(--secondary-color), var(--primary-color) );
-    padding: 2rem 1rem;
+    padding: 2rem 0rem 0.5rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -172,7 +172,7 @@ figcaption{
 
 .footer .link {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .footer .footer-header {
@@ -191,9 +191,9 @@ figcaption{
 }
 
 /* projects */
-.showcase-list {
-    padding: 2rem;
-}
+/* .showcase-list { */
+    /* padding: 2rem; */
+/* } */
 
 @media screen and (max-width: 360px) {
     .hero-img{
