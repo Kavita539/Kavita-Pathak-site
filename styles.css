@@ -140,6 +140,25 @@ hr {
     background-color: var(--off-white);
 }
 
+.logos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.logo{
+    width: 55px;
+}
+
+.logoDiv{
+    margin: 0.5rem;
+}
+
+figcaption{
+    font-size: 0.8rem;
+}
+
+
 .footer {
     background-image: linear-gradient( to left, var(--secondary-color), var(--primary-color) );
     padding: 2rem 1rem;
