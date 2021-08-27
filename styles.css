@@ -46,8 +46,8 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -58,7 +58,6 @@ hr {
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
-    /* display: inline; */
 }
 
 .link-secondary {
@@ -68,7 +67,6 @@ hr {
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
-    /* display: inline; */
     background: transparent;
 }
 
@@ -112,13 +110,15 @@ hr {
 
 .hero {
     padding: 2rem;
-    padding: 5rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .hero .hero-heading {
